@@ -5,6 +5,9 @@
  */
 package associationquranic;
 
+import Entity.Inscrit;
+import Service.Inscrit_Service;
+
 /**
  *
  * @author majd
@@ -16,6 +19,15 @@ public class AssociationQuranic {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Inscrit i = new Inscrit ("مجد ","ميمون","مستوى أول ");
+        
+        
+        Inscrit_Service.getInstance().UpdateMembre("المستوى الثاني",14);
+        
+        
+        
+        
+        
     }
     
 }

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="789.0" prefWidth="1231.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="GUI.AcceuilController">
+   <children>
+      <SplitPane dividerPositions="0.21914357682619648" layoutY="2.0" orientation="VERTICAL" prefHeight="796.0" prefWidth="1252.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <HBox layoutX="118.0" layoutY="11.0" prefHeight="122.0" prefWidth="1184.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-197.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label prefHeight="178.0" prefWidth="1262.0" text="جمعية المحافظة على القرآن الكريم بأريانة المدينة" textFill="#5ca871">
+                           <font>
+                              <Font size="60.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="660.0" prefWidth="1250.0">
+               <children>
+                  <VBox layoutX="1055.0" layoutY="7.0" prefHeight="649.0" prefWidth="180.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="99.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/inscrit.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="104.0" prefWidth="91.0" text="التسجيل">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="91.0" fitWidth="72.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/list.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="25.0" top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="99.0" prefWidth="114.0" text="المستويات">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="92.0" prefWidth="180.0">
+                           <children>
+                              <ImageView fitHeight="80.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/cash.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="15.0" top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="92.0" prefWidth="99.0" text="الإستخلاص">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="79.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/update.png" />
+                                 </image>
+                                 <HBox.margin>
+                                    <Insets right="25.0" top="10.0" />
+                                 </HBox.margin>
+                              </ImageView>
+                              <Label prefHeight="93.0" prefWidth="97.0" text="التحيين">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+                  <Pane layoutX="4.0" layoutY="6.0" prefHeight="622.0" prefWidth="1018.0">
+                     <children>
+                        <ImageView fitHeight="483.0" fitWidth="1259.0" layoutX="-230.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/acceuil.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

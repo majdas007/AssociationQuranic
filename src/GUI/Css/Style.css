@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+.Anchornpane{
+    -fx-background-image: url("../Images/acceuil.png");
+
+    -fx-background-size:cover, auto;
+    -fx-background-position: left left;
+}
+.fonts
+{
+    font-family: 'Amiri', serif;
+}

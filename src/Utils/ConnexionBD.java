@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class ConnexionBD {
     Connection connection ;
-   private   String url ="jdbc:mysql://localhost:3306/Assosiation" ;
+   private   String url ="jdbc:mysql://localhost:3306/Assosiation?characterEncoding=utf8" ;
    private   String user ="root";
    private   String password ="";
     static ConnexionBD instance ;
@@ -26,8 +26,8 @@ public class ConnexionBD {
        try {
            connection = DriverManager.getConnection(url,user,password);
        } catch (SQLException ex) {
-           Logger.getLogger(ConnexionBD.class.getName()).log(Level.SEVERE, null, ex);
-           System.out.println("problem connection");
+         
+           System.out.println(ex);
        }
     }
 
