@@ -19,11 +19,11 @@ public class AssociationQuranic {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Inscrit i = new Inscrit ("مجد ","ميمون","مستوى أول ");
+       // Inscrit i = new Inscrit ("مجد ","ميمون","مستوى أول " ,11,12365,11,15," تتت "," ووو ","لخضر ","أمين","محمد","يحيى");
         
-        
-        Inscrit_Service.getInstance().UpdateMembre("المستوى الثاني",14);
-        
+      //  Inscrit_Service.getInstance().AddMembre(i);
+     //  Inscrit_Service.getInstance().UpdateMembre("المستوى الثاني",5);
+        Inscrit_Service.getInstance().DeleteMembre(5);
         
         
         
