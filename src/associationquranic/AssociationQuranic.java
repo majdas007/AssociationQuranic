@@ -5,8 +5,9 @@
  */
 package associationquranic;
 
-import Entity.Inscrit;
+import Entity.Payement;
 import Service.Inscrit_Service;
+import Service.Payement_Service;
 
 /**
  *
@@ -23,9 +24,10 @@ public class AssociationQuranic {
         
       //  Inscrit_Service.getInstance().AddMembre(i);
      //  Inscrit_Service.getInstance().UpdateMembre("المستوى الثاني",5);
-        Inscrit_Service.getInstance().DeleteMembre(5);
+       // Payement p = new Payement("يحيى ","زمالي ","نوفمبر","200",20);
         
-        
+       // Payement_Service.getInstance().AddPayment(p);
+        System.out.println( Payement_Service.getInstance().Somme("نوفمبر"));
         
         
     }

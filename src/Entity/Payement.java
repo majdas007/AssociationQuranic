@@ -14,9 +14,13 @@ public class Payement {
     int tarif ; 
 
     
-    public  Payement()
+    public  Payement(String Nom , String Prenom , String Mois , String Annee,int tarif)
     {
-        
+        this.Nom = Nom ; 
+        this.Prenom = Prenom ; 
+        this.Mois = Mois ; 
+        this.Annee = Annee;
+        this.tarif=tarif ; 
     }
     
     
